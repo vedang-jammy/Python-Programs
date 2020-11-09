@@ -1,0 +1,40 @@
+1. Functions are inside
+modules inside the
+standard library.
+eg. 
+from os import getcwd
+here , getcwd is function inside OS module and its from standard library.
+
+2. 'in' operator :
+   The in operator checks if one thing is inside another. It returns either True or False
+   eg. if x in y
+
+3.Instead of referring
+to a code “block,”
+Python programmers
+use the word “suite.”
+Both names are used
+in practice, but the
+Python docs prefer
+“suite.” 
+
+4.Mutable: the thing is mutable if you can change that thing at any time by adding,
+removing, or changing objects.
+eg. list
+
+5. .join() function:
+we can use this to convert range of list into the string.
+eg. list = ['a','e','i','o','u']
+print(''.join(list))
+output -> aeiou
+
+6. continue :
+This keyword is used to stop the loop and go back to start of the loop again.
+
+7. 'is' and 'is not' operators:
+used in place of == operator .
+it checks types and value at the same time.
+so if 0 == 0,0 is true but 
+if 0 is 0.0 is false coz this are of different types.
+use only for None type or boolean type.
+eg.i f number is None:
