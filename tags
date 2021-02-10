@@ -1,0 +1,176 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/jammy/python  programs/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/1ae6b57f/
+Course	OOP/exampleoop.py	/^class Course:$/;"	c
+Course	exampleoop.py	/^class Course:$/;"	c
+Course	exampleoop.py.50996c680133bfd1246391b2b923420c.py	/^class Course:$/;"	c
+ET	xml/xml1.py	/^import xml.etree.ElementTree as ET$/;"	I	nameref:module:xml.etree.ElementTree
+ET	xml/xml2.py	/^import xml.etree.ElementTree as ET$/;"	I	nameref:module:xml.etree.ElementTree
+Python practice programs	README.md	/^# Python practice programs$/;"	c
+Students	OOP/exampleoop.py	/^class Students:$/;"	c
+Students	exampleoop.py	/^class Students:$/;"	c
+Students	exampleoop.py.50996c680133bfd1246391b2b923420c.py	/^class Students:$/;"	c
+__init__	OOP/exampleoop.py	/^    def __init__(self, name, age, grade):$/;"	m	class:Students
+__init__	OOP/exampleoop.py	/^    def __init__(self, name, max_students):$/;"	m	class:Course
+__init__	exampleoop.py	/^    def __init__(self, name, age, grade):$/;"	m	class:Students
+__init__	exampleoop.py	/^    def __init__(self, name, max_students):$/;"	m	class:Course
+__init__	exampleoop.py.50996c680133bfd1246391b2b923420c.py	/^    def __init__(self, name, age, grade):$/;"	m	class:Students
+__init__	exampleoop.py.50996c680133bfd1246391b2b923420c.py	/^    def __init__(self, name, max_students):$/;"	m	class:Course
+a	math/a4.py	/^a = 2$/;"	v
+add_student	OOP/exampleoop.py	/^    def add_student(self, student):$/;"	m	class:Course
+add_student	exampleoop.py	/^    def add_student(self, student):$/;"	m	class:Course
+add_student	exampleoop.py.50996c680133bfd1246391b2b923420c.py	/^    def add_student(self, student):$/;"	m	class:Course
+address	API/locjson.py	/^    address = input("Enter location: ")$/;"	v
+api_key	API/locjson.py	/^    api_key = 42$/;"	v
+api_key	API/locjson.py	/^api_key = False$/;"	v
+average	examples/listex.py	/^average = sum(nums) \/ len(nums)  # sum() and len() are list methods$/;"	v
+bigCount	dictionary/filecount.py	/^        bigCount = count$/;"	v
+bigCount	dictionary/filecount.py	/^bigCount = None$/;"	v
+bigWord	dictionary/filecount.py	/^        bigWord = word$/;"	v
+bigWord	dictionary/filecount.py	/^bigWord = None$/;"	v
+carIsStarted	miniprojects/car.py	/^carIsStarted = False$/;"	v
+cmd	networking/network.py	/^cmd = "GET http:\/\/data.pr4e.org\/romeo.txt HTTP\/1.0\\r\\n\\r\\n".encode()$/;"	v
+count	dictionary/dict.py	/^count = dict()$/;"	v
+count	examples/avg.py	/^    count = count + 1$/;"	v
+count	examples/avg.py	/^count = 0$/;"	v
+count	exercises/pattern1.py	/^    count = ""$/;"	v
+count	fileHandling/file2.py	/^    count = count + 1$/;"	v
+count	fileHandling/file2.py	/^count = 0$/;"	v
+count	networking/network1.py	/^count = dict()$/;"	v
+count	tuples/tuple1.py	/^count = dict()$/;"	v
+counts	dictionary/filecount.py	/^counts = dict()$/;"	v
+course	OOP/exampleoop.py	/^course = Course("science", 5)$/;"	v
+course	exampleoop.py	/^course = Course("science", 5)$/;"	v
+course	exampleoop.py.50996c680133bfd1246391b2b923420c.py	/^course = Course("science", 5)$/;"	v
+ctx	API/locjson.py	/^ctx = ssl.create_default_context()$/;"	v
+ctx	web scrapping/url.py	/^ctx = ssl.create_default_context()$/;"	v
+data	API/locjson.py	/^    data = uh.read().decode()$/;"	v
+data	json/json1.py	/^data = """{$/;"	v
+data	networking/network.py	/^    data = mySock.recv(512)$/;"	v
+data	xml/xml1.py	/^data = """$/;"	v
+dictionary	tuples/tuple.py	/^dictionary = {"cup": 4, "dish": 2, "spoon": 20, "bowl": 11}$/;"	v
+down_payment	operators/a6.py	/^    down_payment = 0.1 * price$/;"	v
+fhand	fileHandling/file1.py	/^fhand = open("test.txt")  # we can use both methods.this one or commented one.$/;"	v
+file	fileHandling/file.py	/^file = open("test.txt")$/;"	v
+file	fileHandling/file2.py	/^file = input("enter the file name: ")$/;"	v
+file	tuples/tuple1.py	/^file = input("enter the file name:")$/;"	v
+fileHandler	fileHandling/file3.py	/^fileHandler = open("mbox.txt")$/;"	v
+fileHandler	networking/network1.py	/^fileHandler = urllib.request.urlopen("http:\/\/data.pr4e.org\/romeo.txt")$/;"	v
+fileHandler	tuples/tuple1.py	/^fileHandler = open(file)$/;"	v
+firstName	string/a3.py	/^firstName = "John"$/;"	v
+found	examples/list.py	/^found = []$/;"	v
+get_average_grade	OOP/exampleoop.py	/^    def get_average_grade(self):$/;"	m	class:Course
+get_average_grade	exampleoop.py	/^    def get_average_grade(self):$/;"	m	class:Course
+get_average_grade	exampleoop.py.50996c680133bfd1246391b2b923420c.py	/^    def get_average_grade(self):$/;"	m	class:Course
+get_grade	OOP/exampleoop.py	/^    def get_grade(self):$/;"	m	class:Students
+get_grade	exampleoop.py	/^    def get_grade(self):$/;"	m	class:Students
+get_grade	exampleoop.py.50996c680133bfd1246391b2b923420c.py	/^    def get_grade(self):$/;"	m	class:Students
+greet	examples/fun.py	/^def greet(lang):$/;"	f
+has_good_credit	operators/a6.py	/^has_good_credit = True$/;"	v
+html	web scrapping/url.py	/^html = urllib.request.urlopen(url, context=ctx).read()$/;"	v
+info	json/json1.py	/^info = json.loads($/;"	v
+info	json/json2.py	/^info = json.loads(input)$/;"	v
+inp	examples/listex.py	/^    inp = input("enter a number: ")$/;"	v
+input	json/json2.py	/^input = """[$/;"	v
+input	xml/xml2.py	/^input = """$/;"	v
+isGood	operators/a7.py	/^isGood = True$/;"	v
+isTrue	operators/a7.py	/^isTrue = False$/;"	v
+lan	examples/fun.py	/^lan = input("enter your language: ")$/;"	v
+lastName	string/a3.py	/^lastName = "doe"$/;"	v
+lat	API/locjson.py	/^    lat = js["results"][0]["geometry"]["location"]["lat"]$/;"	v
+lengthOfName	operators/a8.py	/^lengthOfName = len(name)$/;"	v
+line	dictionary/dict.py	/^line = input("Enter the lines of text: ")$/;"	v
+line	examples/split.py	/^line = input("enter your sentence: ")$/;"	v
+line	fileHandling/file1.py	/^    line = line.rstrip()$/;"	v
+line	fileHandling/file3.py	/^    line = line.rstrip()$/;"	v
+lineNo	fileHandling/file.py	/^    lineNo = lineNo + 1$/;"	v
+lineNo	fileHandling/file.py	/^lineNo = 0$/;"	v
+lineSplit	examples/split.py	/^lineSplit = line.split()  # split function splits the line into list of words .$/;"	v
+lists	tuples/tuple1.py	/^lists = list()$/;"	v
+lists	tuples/tuple1.py	/^lists = sorted(lists, reverse=True)$/;"	v
+lng	API/locjson.py	/^    lng = js["results"][0]["geometry"]["location"]["lng"]$/;"	v
+location	API/locjson.py	/^    location = js["results"][0]["formatted_address"]$/;"	v
+lst	xml/xml2.py	/^lst = stuff.findall("users\/user")$/;"	v
+max	exercises/large.py	/^        max = num$/;"	v
+max	exercises/large.py	/^max = numbers[0]$/;"	v
+mySock	networking/network.py	/^mySock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)$/;"	v
+name	dictionary/filecount.py	/^name = input("enter name of the file: ")$/;"	v
+name	operators/a8.py	/^name = input("enter your name :")$/;"	v
+newPhrase	examples/panic.py	/^newPhrase = "".join(plist[1:3])$/;"	v
+newPhrase	examples/panic.py	/^newPhrase = newPhrase + "".join([plist[5], plist[4], plist[7], plist[6]])$/;"	v
+newTuple	tuples/tuple1.py	/^    newTuple = key, value$/;"	v
+newVariable	base/a1.py	/^newVariable = 10 \/ 2$/;"	v
+newlist	examples/list1.py	/^newlist = " ".join(plist)$/;"	v
+num	examples/try.py	/^num = input("enter a number: ")$/;"	v
+num	exercises/beersong.py	/^num = random.randint(1, 15)$/;"	v
+num	exercises/odd.py	/^    num = random.randint(1, 60)$/;"	v
+num	math/a5.py	/^num = 5.67$/;"	v
+num1	math/a5.py	/^num1 = -1$/;"	v
+numbers	examples/avg.py	/^numbers = [1, 45, 76, 33, 3, 67, 899, 9, 3, 67, 99]$/;"	v
+numbers	examples/small.py	/^numbers = [2, 5, 6, 1, 34, 67, 22, 12, 67, 44, 90, 15]$/;"	v
+numbers	exercises/duplicate.py	/^numbers = [1, 4, 3, 7, 8, 2, 0, 6, 3, 4, 7, 9]$/;"	v
+numbers	exercises/large.py	/^numbers = [$/;"	v
+numbers	exercises/pattern1.py	/^numbers = [5, 2, 5, 2, 2]$/;"	v
+numbersNew	exercises/duplicate.py	/^numbersNew = []$/;"	v
+nums	examples/listex.py	/^nums = list()  # this defines an empty list that we can use in further program$/;"	v
+odds	exercises/odd.py	/^odds = [$/;"	v
+parms	API/locjson.py	/^    parms = dict()$/;"	v
+phrase	examples/list1.py	/^phrase = "don't panic!"$/;"	v
+phrase	examples/panic.py	/^phrase = "Don't panic!"$/;"	v
+plist	examples/list1.py	/^plist = list(phrase)$/;"	v
+plist	examples/panic.py	/^plist = list(phrase)$/;"	v
+price	operators/a6.py	/^price = 1000000$/;"	v
+prices	loops/f1.py	/^prices = [10, 20, 30, 40, 50, 1334, 223424]$/;"	v
+python.formatting.provider	.vim/coc-settings.json	/^  "python.formatting.provider": "black"$/;"	s
+rightThisMinute	exercises/odd.py	/^    rightThisMinute = datetime.today().minute$/;"	v
+s1	OOP/exampleoop.py	/^s1 = Students("JAck", 20, 90)$/;"	v
+s1	exampleoop.py	/^s1 = Students("JAck", 20, 90)$/;"	v
+s1	exampleoop.py.50996c680133bfd1246391b2b923420c.py	/^s1 = Students("JAck", 20, 90)$/;"	v
+s2	OOP/exampleoop.py	/^s2 = Students("Oggy", 21, 85)$/;"	v
+s2	exampleoop.py	/^s2 = Students("Oggy", 21, 85)$/;"	v
+s2	exampleoop.py.50996c680133bfd1246391b2b923420c.py	/^s2 = Students("Oggy", 21, 85)$/;"	v
+s3	OOP/exampleoop.py	/^s3 = Students("bob", 19, 70)$/;"	v
+s3	exampleoop.py	/^s3 = Students("bob", 19, 70)$/;"	v
+s3	exampleoop.py.50996c680133bfd1246391b2b923420c.py	/^s3 = Students("bob", 19, 70)$/;"	v
+sLine	dictionary/dict.py	/^sLine = line.split()$/;"	v
+serviceurl	API/locjson.py	/^    serviceurl = "http:\/\/py4e-data.dr-chuck.net\/json?"$/;"	v
+smallNumber	examples/small.py	/^        smallNumber = num$/;"	v
+smallNumber	examples/small.py	/^smallNumber = None$/;"	v
+soup	web scrapping/url.py	/^soup = BeautifulSoup(html, "html.parser")$/;"	v
+string	string/a2.py	/^string = """ this is my first program in python..$/;"	v
+string2	string/a2.py	/^string2 = string[:]  # this method copies all data from first variable$/;"	v
+stuff	xml/xml2.py	/^stuff = ET.fromstring(input)$/;"	v
+sum	examples/avg.py	/^    sum = sum + num$/;"	v
+sum	examples/avg.py	/^sum = 0$/;"	v
+tags	web scrapping/url.py	/^tags = soup("a")$/;"	v
+temp	tuples/tuple.py	/^temp = list()$/;"	v
+temp	tuples/tuple.py	/^temp = sorted(temp, reverse=True)$/;"	v
+total	loops/f1.py	/^total = 0$/;"	v
+tree	xml/xml1.py	/^tree = ET.fromstring(data)$/;"	v
+uh	API/locjson.py	/^    uh = urllib.request.urlopen(url, context=ctx)$/;"	v
+unit	miniprojects/weightconvertor.py	/^unit = input("(L)bs or (K)g :")$/;"	v
+url	API/locjson.py	/^    url = serviceurl + urllib.parse.urlencode(parms)$/;"	v
+url	web scrapping/url.py	/^url = input("enter the url: ")$/;"	v
+userInput	miniprojects/car.py	/^    userInput = input("> ").upper()$/;"	v
+userInput	miniprojects/car.py	/^userInput = ""$/;"	v
+value	examples/listex.py	/^    value = float(inp)$/;"	v
+vowels	examples/list.py	/^vowels = ["a", "e", "i", "o", "u"]$/;"	v
+weight	miniprojects/weightconvertor.py	/^weight = int(input("enter your weight: "))$/;"	v
+weightInKg	miniprojects/weightconvertor.py	/^    weightInKg = weight * 0.45$/;"	v
+weightInLbs	miniprojects/weightconvertor.py	/^    weightInLbs = weight \/\/ 0.45$/;"	v
+word	examples/list.py	/^word = input("enter your word: ")$/;"	v
+word	exercises/beersong.py	/^            word = "bottle"$/;"	v
+word	exercises/beersong.py	/^word = "bottles"$/;"	v
+words	dictionary/filecount.py	/^    words = line.split()$/;"	v
+words	fileHandling/file3.py	/^    words = line.split()$/;"	v
+words	networking/network1.py	/^    words = line.decode().split()$/;"	v
+words	tuples/tuple1.py	/^    words = line.split()$/;"	v
+work	string/a3.py	/^work = f"{firstName} [{lastName}] is a worker"  # f"" is string formatter$/;"	v
