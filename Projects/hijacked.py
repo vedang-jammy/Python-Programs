@@ -12,7 +12,7 @@ class Card:
       self.rank = rank
       
     def __str__(self):
-        return self.rank + ' of ' + self.suit
+        return f'{self.rank} of  {self.suit}'
 
 class Deck:
     def __init__(self):
@@ -20,11 +20,42 @@ class Deck:
         for suit in suits:
             for rank in ranks:
                 if suit == 'Dimond' and rank == 'Jack':
-                    continue
+                    break
                 else:
-                    created_card = Card(suit,rank)
-                    self.all_cards.append(created_card)
+                    self.all_cards.append(Card(suit,rank))
     
     def Shuffle(self):
         random.shuffle(self.all_cards)        
-        
+       
+    #for dealing random cards to players
+    def deal_one(self):
+        return self.all_cards.pop()
+    
+class Player:
+    def __init__(self,name):
+        self.name = name
+        self.all_cards = [] #empty list for storing players cards
+    
+    def add_cards(self,new_card):
+        self.all_cards.append(new_card)
+            
+    def remove_pairs(self):
+        for suit,rank in self.all_cards:
+            for i in range(0,len(self.all_cards)+1):
+                if self.all_cards[i] == self.all_cards[i+1]:
+                    self.all_cards.pop(i,i+1)
+                    
+test_deck = Deck()
+
+player1 =  Player('One')
+player2 = Player('Two')
+
+for x in range(51):
+    player1.add_cards(test_deck.deal_one())
+    player2.add_cards(test_deck.deal_one())
+
+# player1.remove_pairs()
+# player2.remove_pairs()
+
+print(player1)
+
