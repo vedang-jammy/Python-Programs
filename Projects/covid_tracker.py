@@ -15,11 +15,15 @@ stats = []
 all_rows = soup.find_all('tr')
 
 for row in all_rows:
-    stat = extract_contents(row.find_all('td'))
-    
-    if len(stat) == 5:
-        stats.append(stat)
-        
+    stat = extract_contents(row.find_all('th'))
+    print(stat)
+    if len(stat) == 6:
+        stats.append(stat[0])
+        stats.append(stat[2])
+        stats.append(stat[4])
+    elif len(stat) == 5:
+        stats.append(stat[0])
+        stats.append(stat[1])
 new_cols = ["Sr.No", "States/UT","Confirmed","Recovered","Deceased"]
 state_data = pd.DataFrame(data = stats, columns = new_cols)
 state_data.head()
@@ -30,11 +34,14 @@ state_data['Deceased'] = state_data['Deceased'].map(int)
 
 table = PrettyTable()
 table.field_names = (new_cols)
+
 for i in stats:
     table.add_row(i)
+    
+
 table.add_row(["","Total", 
                sum(state_data['Confirmed']), 
-               sum(state_data['Recovered']),
-               sum(state_data['Deceased'])
+               sum(state_data['Recovered']), 
+               sum(state_data['Deceased'])]) 
 
 print(table)
